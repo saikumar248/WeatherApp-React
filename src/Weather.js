@@ -52,7 +52,7 @@ const Weather = () => {
       </form>
       {weatherData && (
         <div>
-          {/* Display weather data */}
+          {/* Display weather     data */}
           <h3>
             {weatherData.data.location.name},{" "}
             {weatherData.data.location.country}
